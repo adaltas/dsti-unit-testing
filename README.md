@@ -15,7 +15,7 @@ This HBase can be in multiple forms:
 - A local VM based HBase cluster: this is the closest we will be to a production environment.
 - An "mini" HBase process embedded inside a Java code.
 
-The easiest way is to embed the HBase process in our Java code, this is what we are going to do.
+The easiest and most portable way is to embed the HBase process in our Java code, this is what we are going to do.
 
 The following code sample can be found in `src/main/java/com.adaltas.examples/TestCreateTableClass`:
 
@@ -77,7 +77,7 @@ It is incomplete and you need to fill the missing block codes.
 
 ### Step 1
 
-The first thing to do is to get the "mini" HBase running. To find out how to do it, check how testing is done in the HBase [Source code](https://github.com/apache/hbase).
+The first thing to do is to get the "mini" HBase running. To find out how to do it, check how testing is done in the HBase [source code](https://github.com/apache/hbase).
 
 ### Step 2
 
